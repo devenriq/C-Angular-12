@@ -5,12 +5,15 @@ import { Component } from '@angular/core';
   templateUrl: './aside.component.html',
 })
 export class AsideComponent {
+
+
   asideElements:any[]=[
     {
       title: 'about',
       description:
       `
         I'm a web developer in course. I'm searching for a workplace where I can prove all the things I've been learning this year.
+
 
         I'm a Post-Rock and Lomo Saltado lover.
       `
